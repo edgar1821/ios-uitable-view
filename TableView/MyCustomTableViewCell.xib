@@ -22,7 +22,7 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbl-7f-27x">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbl-7f-27x">
                         <rect key="frame" x="16" y="53" width="72" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -44,10 +44,11 @@
                     <constraint firstItem="yrQ-xr-Q6h" firstAttribute="leading" secondItem="hbl-7f-27x" secondAttribute="trailing" constant="46" id="akj-GA-erO"/>
                     <constraint firstItem="hbl-7f-27x" firstAttribute="top" secondItem="sXE-GY-Vt1" secondAttribute="bottom" constant="16" id="ebi-rv-kaw"/>
                     <constraint firstItem="hbl-7f-27x" firstAttribute="top" secondItem="sXE-GY-Vt1" secondAttribute="bottom" constant="16" id="hAB-Fr-9dX"/>
-                    <constraint firstItem="yrQ-xr-Q6h" firstAttribute="leading" secondItem="hbl-7f-27x" secondAttribute="trailing" constant="16" id="jPz-md-Iia"/>
+                    <constraint firstItem="yrQ-xr-Q6h" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hbl-7f-27x" secondAttribute="trailing" constant="16" id="jPz-md-Iia"/>
                     <constraint firstItem="sXE-GY-Vt1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="pmh-pi-5P9"/>
                     <constraint firstItem="yrQ-xr-Q6h" firstAttribute="leading" secondItem="sXE-GY-Vt1" secondAttribute="trailing" constant="16" id="rFR-ea-Kpy"/>
                     <constraint firstItem="hbl-7f-27x" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="x4k-UW-FCJ"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hbl-7f-27x" secondAttribute="bottom" constant="16" id="zyT-SN-yfY"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

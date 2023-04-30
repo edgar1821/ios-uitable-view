@@ -20,6 +20,8 @@ class MyCustomTableViewCell: UITableViewCell {
         myFirstLabel.font = UIFont.boldSystemFont(ofSize: 20)
         myFirstLabel.textColor = .blue
         backgroundColor = .gray
+        
+        mySecondLabel.numberOfLines = 0
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
